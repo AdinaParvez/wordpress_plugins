@@ -1,0 +1,88 @@
+/**
+ * My Custom Plugin Styles
+ * Version: 1.0.0
+ */
+
+/* Welcome Box Styles */
+.mcp-welcome-box {
+    padding: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.mcp-welcome-box h3 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.mcp-welcome-box p {
+    margin: 0;
+    font-size: 18px;
+    color: #f0f0f0;
+}
+
+/* Admin Page Styles */
+.mcp-admin-content {
+    max-width: 1200px;
+}
+
+.mcp-admin-content .card {
+    padding: 20px;
+    margin: 20px 0;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.mcp-admin-content .card h3 {
+    margin-top: 0;
+    color: #23282d;
+}
+
+.mcp-admin-content .card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.mcp-admin-content .card code {
+    background: #f0f0f1;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+/* Custom Widget Styles */
+.widget_mcp_custom_widget {
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+
+.widget_mcp_custom_widget p {
+    margin: 0;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .mcp-welcome-box {
+        padding: 15px;
+    }
+    
+    .mcp-welcome-box h3 {
+        font-size: 20px;
+    }
+    
+    .mcp-welcome-box p {
+        font-size: 16px;
+    }
+}

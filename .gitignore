@@ -1,0 +1,34 @@
+# WordPress
+*.log
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node modules (if using build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Composer
+vendor/
+composer.phar
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
